@@ -2,13 +2,12 @@
  * Project 4 - OOP Game App
  * Phrase.js */
 
-
-
 class Phrase {
     constructor(phrase) {
         this.phrase = phrase.toLowerCase();
     };
     
+    // creates boxes for hidden letters
     addPhraseToDisplay() {
         const ul = document.querySelector('#phrase ul');
 
@@ -28,11 +27,9 @@ class Phrase {
         };
     }; 
 
-
     checkLetter(letter) {
         return this.phrase.includes(letter);
     };
-
 
     showMatchedLetter(letter) {
         const liLetter = document.getElementsByClassName(letter);

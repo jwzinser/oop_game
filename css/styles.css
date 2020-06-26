@@ -4,10 +4,10 @@
 /* Variables */
 
 :root {
-  --color-win: #78CF82;
-  --color-lose: #D94545;
-  --color-start: #5b85b7;
-  --color-neutral: #445069;
+  --color-win: green; /* #78CF82;  */
+  --color-lose: red; /* #D94545; */
+  --color-start: #ecbb1a; /*#5b85b7; */
+  --color-neutral: #ecbb1a; /* #445069; */
   --color-neutral-light: #D2D2D2;
   --color-keys: #37474F;
   --color-keys-light: #E5E5E5;
@@ -180,7 +180,7 @@ button {
 }
 
 .start {
-  background-color: #3a3f58;
+  background-color: #ecbb1a;  /* #3a3f58; */
 }
 
 .start a {
@@ -196,7 +196,7 @@ button {
 }
 
 .lose {
-  background-color: #f5785f;
+  background-color: red; /* #f5785f; */
 }
 
 .lose a {
